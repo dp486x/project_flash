@@ -1,0 +1,32 @@
+{
+  "name": "basic-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "repository": {},
+  "keywords": [
+    "starter",
+    "basic"
+  ],
+  "author": "Shrikar Chonkar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.11.5",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "chalk": "^2.0.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-nodemon": "^0.4.2",
+    "nodemon": "^1.11.0"
+  }
+}
